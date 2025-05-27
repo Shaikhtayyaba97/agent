@@ -1,0 +1,19 @@
+[project]
+name = "agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "tayyaba", email = "tayyabashahbaz2020@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.5.5",
+]
+
+[project.scripts]
+agent = "agent:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
