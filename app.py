@@ -1,6 +1,6 @@
 # app.py
 import chainlit as cl
-from chatbot import get_ai_response
+from problem_solver import get_ai_response
 
 @cl.on_message
 async def handle_message(message: cl.Message):
